@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-cssnext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Neutrino preset adding cssnext support.",
   "main": "src/index.js",
   "keywords": [
@@ -13,7 +13,8 @@
   "bugs": "https://github.com/barraponto/neutrino-preset-postcss-cssnext/issues",
   "license": "GPL-3.0",
   "dependencies": {
-    "neutrino-middleware-postcss": "^2.0.0"
+    "neutrino-middleware-postcss": "^2.0.0",
+    "postcss-cssnext": "^2.10.0"
   },
   "peerDependencies": {
     "neutrino": "^5.0.0"
@@ -25,7 +26,6 @@
     "eslint-plugin-prettier": "^2.0.1",
     "neutrino": "^5.0.2",
     "neutrino-preset-airbnb-base": "^5.0.2",
-    "postcss-cssnext": "^2.10.0",
     "prettier": "^0.22.0"
   },
   "config": {
