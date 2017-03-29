@@ -1,5 +1,5 @@
 {
-  "name": "neutrino-preset-postcss-cssnext",
+  "name": "neutrino-preset-cssnext",
   "version": "1.0.0",
   "description": "Neutrino preset adding cssnext support.",
   "main": "src/index.js",
