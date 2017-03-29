@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-cssnext",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Neutrino preset adding cssnext support.",
   "main": "src/index.js",
   "keywords": [
@@ -13,6 +13,7 @@
   "bugs": "https://github.com/barraponto/neutrino-preset-postcss-cssnext/issues",
   "license": "GPL-3.0",
   "dependencies": {
+    "deepmerge": "^1.3.2",
     "neutrino-middleware-postcss": "^2.0.0",
     "postcss-cssnext": "^2.10.0"
   },

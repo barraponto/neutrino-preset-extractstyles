@@ -36,8 +36,15 @@ could be added in `package.json`:
 }
 ```
 
+## Known Issues
+
+While the [middleware][postcss-middleware] is able to pick up PostCSS
+configuration, this preset isn't. If you need to support more plugins, consider
+extending this preset or the middleware directly.
+
 [cssnext]: http://cssnext.io/
 [cssnext-browserslist]: http://cssnext.io/usage/#browsers
+[postcss-middleware]: https://npmjs.org/package/neutrino-middleware-postcss
 [browserslist-docs]: https://github.com/ai/browserslist#queries
 [npm-image]: https://img.shields.io/npm/v/neutrino-preset-cssnext.svg
 [npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-cssnext.svg
