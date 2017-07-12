@@ -8,39 +8,41 @@
 ## Documentation
 
 Install this preset to your development dependencies, then set it in
-`package.json`:
+`.neutrinorc.js`:
 
-```json
-"neutrino": {
-  "use": [
-    "neutrino-preset-web",
-    "neutrino-preset-cssnext"
-  ]
-}
+```javascript
+  module.exports = {
+    use: [
+      "neutrino-preset-web",
+      "neutrino-preset-cssnext",
+    ],
+    ...
+  };
 ```
 
-You can configure the features through the [browsers][cssnext-browserslist]
-settings (see [Browserslist query syntax][browserslist-docs]). For example, it
-could be added in `package.json`:
+You can configure the features through `options` object, following the
+instructions at [cssnext documentation][cssnext-browserslist] and the
+[Browserslist query syntax][browserslist-docs]).
 
-```json
-"browserslist": [
-  "> 1%",
-  "last 2 versions"
-],
-"neutrino": {
-  "use": [
-    "neutrino-preset-web",
-    "neutrino-preset-cssnext"
-  ]
-}
+This is an example using options:
+
+```javascript
+  module.exports = {
+    use: [
+      "neutrino-preset-web",
+      ["neutrino-preset-cssnext", {
+        browsers: ["> 1%", "last 2 versions"],
+      }],
+    ],
+    ...
+  };
 ```
 
-## Known Issues
+## Breaking Changes
 
-While the [middleware][postcss-middleware] is able to pick up PostCSS
-configuration, this preset isn't. If you need to support more plugins, consider
-extending this preset or the middleware directly.
+Bumping to Neutrino 6 and cssnext 3.
+The most meaningful change is in image-set polyfill.
+See https://github.com/MoOx/postcss-cssnext/releases/tag/3.0.0
 
 [cssnext]: http://cssnext.io/
 [cssnext-browserslist]: http://cssnext.io/usage/#browsers
