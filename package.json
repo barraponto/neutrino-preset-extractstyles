@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-extractstyles",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "Neutrino preset for extracting css files to a separate bundle.",
   "main": "src/index.js",
   "keywords": [
