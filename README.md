@@ -22,8 +22,8 @@ Install this preset to your development dependencies, then set it in
 
 
 [plugin]: https://github.com/webpack-contrib/extract-text-webpack-plugin
-[npm-image]: https://img.shields.io/npm/v/neutrino-preset-cssnext.svg
-[npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-cssnext.svg
-[npm-url]: https://npmjs.org/package/neutrino-preset-cssnext
+[npm-image]: https://img.shields.io/npm/v/neutrino-preset-extractstyles.svg
+[npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-extractstyles.svg
+[npm-url]: https://npmjs.org/package/neutrino-preset-extractstyles
 [slack-image]: https://neutrino-slack.herokuapp.com/badge.svg
 [slack-url]: https://neutrino-slack.herokuapp.com/
