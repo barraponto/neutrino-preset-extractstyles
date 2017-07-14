@@ -1,21 +1,18 @@
 {
-  "name": "neutrino-preset-cssnext",
-  "version": "2.0.0-rc.1",
-  "description": "Neutrino preset adding cssnext support.",
+  "name": "neutrino-preset-extractstyles",
+  "version": "1.0.0",
+  "description": "Neutrino preset for extracting css files to a separate bundle.",
   "main": "src/index.js",
   "keywords": [
     "neutrino",
-    "neutrino-preset",
-    "postcss"
+    "neutrino-preset"
   ],
   "author": "Capi Etheriel <barraponto@gmail.com> (https://barraponto.blog.br)",
-  "repository": "https://github.com/barraponto/neutrino-preset-postcss-cssnext",
-  "bugs": "https://github.com/barraponto/neutrino-preset-postcss-cssnext/issues",
+  "repository": "https://github.com/barraponto/neutrino-preset-extractstyles",
+  "bugs": "https://github.com/barraponto/neutrino-preset-extractstyles/issues",
   "license": "GPL-3.0",
   "dependencies": {
-    "deepmerge": "^1.5.0",
-    "neutrino-middleware-postcss": "next",
-    "postcss-cssnext": "^3.0.2"
+    "extract-text-webpack-plugin": "^2.0.0"
   },
   "peerDependencies": {
     "neutrino": "^6.0.0"
