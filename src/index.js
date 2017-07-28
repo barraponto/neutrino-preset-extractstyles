@@ -1,6 +1,6 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-module.exports = (neutrino, options) => {
+module.exports = (neutrino, options = {}) => {
   // Supports neutrino-preset-web and any other preset following this pattern.
   const styleRule = neutrino.config.module.rule('style');
   const styleTest = styleRule.get('test');
