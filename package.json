@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-extractstyles",
-  "version": "1.0.0-rc.1",
+  "version": "2.0.0-rc.1",
   "description": "Neutrino preset for extracting css files to a separate bundle.",
   "main": "src/index.js",
   "keywords": [
@@ -12,10 +12,10 @@
   "bugs": "https://github.com/barraponto/neutrino-preset-extractstyles/issues",
   "license": "GPL-3.0",
   "dependencies": {
-    "extract-text-webpack-plugin": "^2.0.0"
+    "extract-text-webpack-plugin": "^3.0.0"
   },
   "peerDependencies": {
-    "neutrino": "^6.0.0"
+    "neutrino": "^7.0.0"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
